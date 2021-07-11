@@ -10,17 +10,15 @@
   </head>
   <body>
     <header class="container">
-      <nav class="navbar is-spaced has-shadow" role="navigation" aria-label="main navigation">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item is-size-3" href="/">
-            Frank Midigo
+          <a href="/">
+            frank midigo
           </a>
         </div>
         <div class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item" target="_blank" href="https://github.com/MidigoF/">Github</a>
-            <a class="navbar-item" target="_blank" href="https://twitter.com/midigo_frank">Twitter</a>
-          </div>
+            <a class="navbar-link" target="_blank" href="https://github.com/MidigoF/">Github</a>
+            <a class="navbar-link" target="_blank" href="https://twitter.com/midigo_frank">Twitter</a>
         </div>
       </nav>
     </header>

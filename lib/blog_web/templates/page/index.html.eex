@@ -1,4 +1,5 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>Peace of mind from prototype to production</p>
+<section class="introduction">
+  <p>
+    Hi, I'm Frank Midigo, a software developer with some professional experience in building web applications. I help organize events at <a href="https://twitter.com/ElixirKenya" target="_blank">Elixir Kenya</a> and <a href="http://elixirconf.africa/" target="_blank">ElixirConf Africa</a>. In this blog you can read about Elixir and other software engineering related topics. You can catch me on our weekly Monday Meetups at <a href="https://twitter.com/ElixirKenya" target="_blank">Elixir Kenya</a>, follow me on <a href="https://twitter.com/midigo_frank" target="_blank">Twitter</a> or email me at my first name @ this domain
+  </p>
 </section>
