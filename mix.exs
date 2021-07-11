@@ -5,7 +5,7 @@ defmodule Blog.MixProject do
     [
       app: :blog,
       version: "0.1.0",
-      elixir: "~> 1.7",
+      elixir: "~> 1.12",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
@@ -41,7 +41,10 @@ defmodule Blog.MixProject do
       {:telemetry_poller, "~> 0.4"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.0"}
+      {:plug_cowboy, "~> 2.0"},
+      {:nimble_publisher, "~> 0.1.2"},
+      {:makeup_elixir, ">= 0.0.0"},
+      {:makeup_erlang, ">= 0.0.0"}
     ]
   end
 
