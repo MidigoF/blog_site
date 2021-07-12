@@ -1,0 +1,7 @@
+<article>
+<h1 class="post-title"><%= @post.title %></h1>
+<time class="date"><%= @post.date %></time>
+<div class="post-cotent">
+  <%= raw @post.body %>
+</div>
+</article>
